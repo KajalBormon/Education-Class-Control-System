@@ -88,10 +88,8 @@ if (isset($_POST['Register'])) {
 
     <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: #5a0533; border-bottom:1px solid black;box-shadow: 3px 3px 5px;">
         <div class="container" style="font-family:'PT Serif';font-size:22px;padding-right:0px;margin-right:0%;">
-            <a class="navbar-brand" href="index.php" style="margin-left: -40%;">
-                <h3 style="font-family:'Bitter';"><img src="images/logo.png" width="70" style="border-radius:50%;border:1px black;" height="70" alt="JKKNIU" /> <span class="mh3">JKKNIU</span><br />
-                    <p style="margin-left:4%;font-size:12px;margin-top:0;position:absolute;top:65px">Trishal,Mymensingh<br />Estd. 2006</p>
-                </h3>
+            <a class="navbar-brand" href="index.php" style="margin-left: -30%;">
+                <h3 style = "font-family:'Bitter';" ><img src="../images/logo.png" width="70" style = "border-radius:50%;border:1px black;" height="70" alt="JKKNIU"/> <span class = "mh3">JKKNIU</span><br /><p style="margin-left:2%;font-size:12px;margin-top:0;position:absolute;top:65px">Trishal,Mymensingh<br />Estd. 2006</p></h3>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -131,7 +129,7 @@ if (isset($_POST['Register'])) {
     <div class="container">
         <div class=" mcontainer">
             <form name="register" method="post" class="myform" action="" enctype="multipart/form-data">
-                <h1 class="tit mb-5">Sign Up</h1>
+                <h1 class="tit mb-5">Sing Up</h1>
                 <?php echo @$err; ?>
                 <hr class="mhr" color="black" height="15px" />
                 <table width="100%">

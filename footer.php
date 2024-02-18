@@ -1,9 +1,8 @@
-<div style="position: absolute;
+<div style="
   overflow: hidden;
-  left: 0;
   font-family:'PT Serif';
   font-size: 22px;
-  bottom: 0;
+  bottom: auto;
   width: 100%;
   height: 80px;
   background-color: #5a0533;
