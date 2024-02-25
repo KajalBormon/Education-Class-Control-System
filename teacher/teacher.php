@@ -66,33 +66,6 @@ if (isset($_POST['delete'])) {
                                 <td><?php echo $row['batch']; ?></td>
                                 <td><?php echo $row['sem']; ?></td>
                                 <td><?php echo $row['mail']; ?></td>
-                                <td>
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal<?= $row['id'] ?>">
-                                        Delete
-                                    </button>
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal<?= $row['id'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    Are you sure want to delete?
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <form action="" method="post">
-                                                        <input type="hidden" name="del_id" value="<?= $row['id'] ?>">
-                                                        <input class="btn btn-danger" type="submit" name="delete" value="Confirm Delete">
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
                             </tr>
                     <?php }
                     } ?>
